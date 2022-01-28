@@ -23,4 +23,6 @@ public class Program {
         System.out.printf("%s, %d, %s\n", personagem1.getNome(), personagem1.getSaudeAtual()
                 , personagem1.getStatus());
     }
+
+    public class carro = new class superCarro
 }
