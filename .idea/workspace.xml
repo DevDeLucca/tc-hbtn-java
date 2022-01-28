@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/0x01/maiusculo/Program.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/0x01/somar/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x02/divisao/Numero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x02/divisao/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x02/quadrado/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x02/quadrado/Quadrado.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x01/maiusculo/Caractere.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/maiusculo/Caractere.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/0x01/somar/Numero.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/somar/Numero.java" afterDir="false" />
@@ -34,6 +41,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
