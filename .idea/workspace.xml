@@ -5,15 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x01/maiusculo/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x01/somar/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02/divisao/Numero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02/divisao/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02/quadrado/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x02/quadrado/Quadrado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/encapsulamento/PersonagemGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/encapsulamento/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/metodos/PersonagemGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/metodos/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/personagem/PersonagemGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/personagem/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/status/PersonagemGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/status/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01/maiusculo/Caractere.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/maiusculo/Caractere.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x01/somar/Numero.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x01/somar/Numero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
