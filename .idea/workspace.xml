@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x03/encapsulamento/PersonagemGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/encapsulamento/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/metodos/PersonagemGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/metodos/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/personagem/PersonagemGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/personagem/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/status/PersonagemGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x03/status/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/consistencia/PersonagemGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x03/consistencia/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
