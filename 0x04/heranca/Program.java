@@ -1,6 +1,6 @@
-public program {
+public class program {
 
-    public statis void main(String [] args){
+    public static void main(String [] args){
 
         Animal meuAnima = new Animal();
         Cachorro meuCachorro = new Cachorro)();
