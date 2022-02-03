@@ -1,8 +1,8 @@
-public class program {
-    public static void main(String[] args){
+public class Program {
+    public static void main(String[] args) {
         FormaGeometrica formaGeometrica = new FormaGeometica();
 
-        try{
+        try {
             System.out.printf("Area: %d", formaGeometrica.area());
 
         } catch (Exception e) {
