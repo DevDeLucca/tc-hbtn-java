@@ -5,14 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x04/forma/FormaGeometrica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x04/forma/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x04/heranca/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x04/heranca/Cachorro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x04/heranca/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x04/retangulo/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x03/consistencia/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x03/consistencia/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/abstrata/FormaGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/abstrata/FormaGeometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/abstrata/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/abstrata/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/abstrata/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/abstrata/Quadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/abstrata/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/abstrata/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/forma/FormaGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/forma/FormaGeometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/forma/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/forma/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/heranca/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/heranca/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/heranca/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/heranca/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/heranca/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/heranca/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/quadrado/FormaGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/quadrado/FormaGeometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/quadrado/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/quadrado/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/quadrado/Quadrado.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/quadrado/Quadrado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/quadrado/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/quadrado/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/retangulo/FormaGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/retangulo/FormaGeometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/retangulo/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/retangulo/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/retangulo/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/retangulo/Retangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/retangulo_completo/FormaGeometrica.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/retangulo_completo/FormaGeometrica.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/retangulo_completo/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/retangulo_completo/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x04/retangulo_completo/Retangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x04/retangulo_completo/Retangulo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +56,14 @@
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.PrintFloatVariable">
+    <configuration name="PrintFloatVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrintFloatVariable" />
+      <module name="tc-hbtn-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Program" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Program" />
       <module name="0x01" />
@@ -53,6 +73,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintFloatVariable" />
         <item itemvalue="Application.Program" />
       </list>
     </recent_temporary>
