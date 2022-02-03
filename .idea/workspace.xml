@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/ContaBancariaBasica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/ContaBancariaControlada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/ContaBancariaTarifada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/exceptions/OperacaoInvalidaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/livraria/Livro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/livraria/LivroEdicaoOuro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/livraria/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/livraria/exceptions/AutorInvalidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/livraria/exceptions/LivroInvalidoException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
