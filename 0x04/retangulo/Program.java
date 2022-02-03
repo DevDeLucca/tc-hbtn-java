@@ -1,5 +1,5 @@
 public class Program {
-    public class static void main(String [] args) {
+    public static void main(String[] args) {
         Retangulo retangulo = new Retangulo();
         retangulo.setLargura(10);
         retangulo.setAltura(2);
