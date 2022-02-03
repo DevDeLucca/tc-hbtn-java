@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x05/conta_basica/ContaBancariaBasica.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05/conta_basica/OperacaoInvalidaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x05/conta_basica/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/ContaBancariaBasica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/ContaBancariaControlada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/ContaBancariaTarifada.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x05/contas_especiais/exceptions/OperacaoInvalidaException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +43,11 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucases\IdeaProjects\tc-hbtn-java\0x05\conta_basica\exceptions" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.PrintFloatVariable">
     <configuration name="PrintFloatVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
