@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x08/pedido_livraria/Dvd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x08/pedido_livraria/ItemPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x08/pedido_livraria/Livro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x08/pedido_livraria/Pedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x08/pedido_livraria/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x08/pedido_livraria/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x08/pedido_livraria/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x08/pedido_livraria/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucases\IdeaProjects\tc-hbtn-java\0x08\pedido_livraria\produtos" />
       <recent name="C:\Users\lucases\IdeaProjects\tc-hbtn-java\0x05\conta_basica\exceptions" />
     </key>
   </component>
