@@ -1,6 +1,6 @@
 public class Program {
     public static void main(String [] args) {
-        Endereco endereco = new endereco("Rua Marechal Deodoro",
+        Endereco endereco = new Endereco("Rua Marechal Deodoro",
                 "135",
                 "",
                 "Santo Amaro",
