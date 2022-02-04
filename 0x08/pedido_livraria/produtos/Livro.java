@@ -1,10 +1,9 @@
-public class Produto {
-    public class Livro extends Produto {
+package produtos;
+public class Livro extends Produto {
 
-        private int paginas;
-        private String autor;
-        private int edicao;
-    }
+    private int paginas;
+    private String autor;
+    private int edicao;
 
     public Livro(String titulo, int ano, String pais, double precoBruto, int paginas, String autor, int edicao) {
         super(titulo, ano, pais, precoBruto);
@@ -13,8 +12,6 @@ public class Produto {
         this.edicao = edicao;
 
     }
-
-}
 
     @Override
     public double obterPrecoLiquido(double preco) {
@@ -44,7 +41,5 @@ public class Produto {
     public void setEdicao(int edicao) {
         this.edicao = edicao;
     }
-
-}
 
 }
