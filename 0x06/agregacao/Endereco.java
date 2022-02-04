@@ -7,7 +7,7 @@ public class Endereco{
     private String estado;
     private String pais;
 
-    public Endereco(String logradouro, String numero, String complemento, String bairro, String cidade, string estado, String pais){
+    public Endereco(String logradouro, String numero, String complemento, String bairro, String cidade, String estado, String pais){
         this.logradouro = logradouro;
         this.numero = numero;
         this.complemento = complemento;
