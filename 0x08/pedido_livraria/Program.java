@@ -1,0 +1,56 @@
+public class Program{
+    public class static void main(String [] args){
+        produto.Livro1 livro1= new produto.Livro("Duna", 2017, "Brasil", 56.30, 680, "Frank Herbert", 1);
+        produto.Livro2 livro2= new produto.Livro("Um do nós esta mentindo", 2018, "Brasil", 34.93, 384,
+                "Karem Mcmanus, 1");
+        produto.Livro3 livro3= new produto.Livro("Mindset Milionário", 2021, "Brasil", 31.70, 272,
+                "José Roberto Marques" 1);
+        produto.Dvd1 dvd1= new produto.Dvd("Anjos da noite 5 - Guerra de sangue", 2016, "Estados Unidos", 16.90,
+                "Anna Foerster", "Ação", 91);
+        produto.Dvd2 dvd2= new produto.Dvd("Annabelle 2 - A criação do Mal", 2017, "Brasil", 39.90,"James Wan e Peter Safran",
+                "Terror", 109);
+
+        //Pedido 1
+        ItemPedido[] itemPedidos1 = new ItemPedido[]{
+                new ItemPedido(livro1, 1),
+                new ItemPedido(Dvd2, 1)
+        };
+        Pedido pedido1 = new Pedido(0, itemPedidos1);
+        System.out.printf("Total Pedido: %.2f\n", pedido1.calcularTotal());
+
+        // Pedido 2
+        ItemPedido[] itensPedido2 = new ItemPedido[] {
+                new ItemPedido(livro1, 1),
+                new ItemPedido(dvd2, 1)
+        };
+
+        Pedido pedido2 = new Pedido(10, itensPedido2);
+
+        System.out.printf("Total Pedido: %.2f\n", pedido2.calcularTotal());
+
+        // Pedido 3
+        ItemPedido[] itensPedido3 = new ItemPedido[] {
+                new ItemPedido(livro2, 1),
+                new ItemPedido(livro3, 2),
+                new ItemPedido(dvd1, 1)
+        };
+
+        Pedido pedido3 = new Pedido(5, itensPedido3);
+
+        System.out.printf("Total Pedido: %.2f\n", pedido3.calcularTotal());
+
+        // Pedido 4
+        ItemPedido[] itensPedido4 = new ItemPedido[] {
+                new ItemPedido(livro2, 1),
+                new ItemPedido(livro2, 1),
+                new ItemPedido(livro3, 2),
+                new ItemPedido(dvd1, 1),
+                new ItemPedido(dvd2, 2)
+        };
+
+        Pedido pedido4 = new Pedido(5, itensPedido4);
+
+        System.out.printf("Total Pedido: %.2f\n", pedido4.calcularTotal());
+    }
+}
+
