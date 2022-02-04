@@ -5,7 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/0x06/agregacao/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x06/agregacao/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/Personagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/BoloDeMel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/Cogumelo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/Comida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/Cram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/Lembas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/Maca.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/Melao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/comida/OutraComida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/humor/Feliz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/humor/Humor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/humor/Irritado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/humor/MuitoFeliz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x07/plano_mordor/humor/Triste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
