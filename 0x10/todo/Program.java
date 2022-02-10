@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class ListaTodo public class Program {
+public class ListaTodo {
     public static void main(String[] args) {
         ListaTodo todo = new ListaTodo();
 
