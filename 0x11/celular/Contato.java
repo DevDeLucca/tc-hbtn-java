@@ -36,3 +36,4 @@ public class Contato {
     public void setTipo(TipoNumero tipo) {
         this.tipo = tipo;
     }
+}
