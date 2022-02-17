@@ -1,7 +1,7 @@
 package atividades;
-public class CodificarVideo implements atividades {
+public class CodificarVideo implements Atividade {
 
-    public CodificarVideo() {
+    public CodificarVideo(){
         executar();
     }
 
