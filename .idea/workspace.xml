@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/Atividade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/CarregarVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/CodificarVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/EnviarEmail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/MaquinaWorkflow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/ModificarStatusVideo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x13/workflow/Workflow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x13/workflow/Atividade.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/Atividade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x13/workflow/CarregarVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/CarregarVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x13/workflow/CodificarVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/CodificarVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x13/workflow/EnviarEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/EnviarEmail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x13/workflow/ModificarStatusVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/ModificarStatusVideo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucases\IdeaProjects\tc-hbtn-java\0x13\workflow\atividades" />
       <recent name="C:\Users\lucases\IdeaProjects\tc-hbtn-java\0x08\pedido_livraria\produtos" />
       <recent name="C:\Users\lucases\IdeaProjects\tc-hbtn-java\0x05\conta_basica\exceptions" />
     </key>
