@@ -1,5 +1,5 @@
 package atividades;
-public class CarregarVideo implements Atividade {
+public class CarregarVideo implements Atividade{
 
     public CarregarVideo() {
         executar();
