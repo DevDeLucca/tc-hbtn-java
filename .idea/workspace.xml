@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/Frete.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/Frete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/ProcessadorPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/ProcessadorPedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/provedores/JadLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/provedores/JadLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/provedores/Loggi.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/provedores/Loggi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/provedores/TipoProvedorFrete.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/provedores/TipoProvedorFrete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0x13/resumo_pedido/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/resumo_pedido/Program.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
