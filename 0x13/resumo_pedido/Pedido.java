@@ -43,4 +43,11 @@ public class Pedido {
     public void setFrete(Frete frete) {
         this.frete = frete;
     }
+
+
+
+
+
+
+
 }
