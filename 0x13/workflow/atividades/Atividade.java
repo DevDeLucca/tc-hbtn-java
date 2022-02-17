@@ -1,5 +1,5 @@
-public class Atividade;
-    public interface Atividade {
+package atividades;
+public interface Atividade {
 
-        public void executar();
+    public void executar();
 }

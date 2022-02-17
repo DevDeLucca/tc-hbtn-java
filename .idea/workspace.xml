@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/0x13/workflow/atividades/EnviarEmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/EnviarEmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0x13/workflow/atividades/ModificarStatusVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/0x13/workflow/atividades/ModificarStatusVideo.java" afterDir="false" />
-    </list>
+    <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
