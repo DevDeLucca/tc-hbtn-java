@@ -1,7 +1,6 @@
 public class Video {
-
     private String arquivo;
-    private String FormatoVideo formato;
+    private FormatoVideo formato;
 
     public Video() {
 
@@ -10,8 +9,7 @@ public class Video {
     public Video(String arquivo, FormatoVideo formato) {
         super();
         this.arquivo = arquivo;
-        this.FormatoVideo = formato;
-
+        this.formato = formato;
     }
 
     public String getArquivo() {
@@ -29,5 +27,8 @@ public class Video {
     public void setFormato(FormatoVideo formato) {
         this.formato = formato;
     }
+
+
+
 
 }
