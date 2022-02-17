@@ -1,7 +1,9 @@
-public class Slack implements  CanalNotificacao {
+public class Slack implements CanalNotificacao {
 
-    @override
+    @Override
     public void notificar(Mensagem mensagem) {
-        System.out.println("[Slack] {"+mensagem.getTipoMensagem()+" } - "+mensagem.getTexto());
+        System.out.println("[SLACK] {"+mensagem.getTipoMensagem()+"} - "+mensagem.getTexto());
     }
+
+
 }

@@ -1,7 +1,7 @@
-public class Teams implements CanalComunicacao {
+public class Teams implements CanalNotificacao {
 
-    @override
+    @Override
     public void notificar(Mensagem mensagem) {
-        System.out.println("[Teams] {"+mensagem.getTipoMensagem()+" } - "+mensagem.getTexto());
+        System.out.println("[TEAMS] {"+mensagem.getTipoMensagem()+"} - "+mensagem.getTexto());
     }
 }
