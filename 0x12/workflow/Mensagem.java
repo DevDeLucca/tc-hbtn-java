@@ -1,7 +1,7 @@
-public class Mensagem {
+ppublic class Mensagem {
 
     private String texto;
-    private String tipoMensagem TipoMensagem;
+    private TipoMensagem tipoMensagem;
 
     public Mensagem() {
 
@@ -12,6 +12,7 @@ public class Mensagem {
         this.texto = texto;
         this.tipoMensagem = tipoMensagem;
     }
+
 
     public String getTexto() {
         return texto;
@@ -29,5 +30,6 @@ public class Mensagem {
         this.tipoMensagem = tipoMensagem;
     }
 
-}
 
+
+}
