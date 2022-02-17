@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a49786ae-b284-4bc4-9c56-395be24b908e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/0x11/banco/Agencia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x11/banco/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x11/banco/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/0x11/banco/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/CanalNotificacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/FormatoVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Mensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/ProcessadorVideo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Slack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Sms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Teams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/TipoMensagem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/0x12/workflow/Video.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
