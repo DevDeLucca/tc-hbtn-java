@@ -23,7 +23,7 @@ public class Program {
         listaTelefonica1.adicionarTelefone("Carlos Alberto", telefone6);
 
         try {
-            listaTelefonica1.adicionarTelefone("Pedro Alvaro", telefoneDuplicado12);
+            listaTelefonica1.adicionarTelefone("Pedro Alvaro", telefoneDuplicado1);
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
@@ -37,25 +37,25 @@ public class Program {
         Set<Telefone> telefones1 = listaTelefonica1.buscar("Pedro Alvaro");
         if (telefones1 == null)
             System.out.println("Telefones na encontrados");
-        else
+        else 
             System.out.println(telefones1);
 
         Set<Telefone> telefones2 = listaTelefonica1.buscar("Maria Joaquina");
         if (telefones2 == null)
             System.out.println("Telefones na encontrados");
-        else
+        else   
             System.out.println(telefones2);
 
         Set<Telefone> telefones3 = listaTelefonica1.buscar("Carlos Alberto");
         if (telefones3 == null)
             System.out.println("Telefones na encontrados");
-        else
+        else 
             System.out.println(telefones3);
 
         Set<Telefone> telefones4 = listaTelefonica1.buscar("Jose Oliveira");
         if (telefones4 == null)
             System.out.println("Telefones na encontrados");
-        else
+        else 
             System.out.println(telefones4);
-    }
+    }    
 }
