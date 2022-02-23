@@ -1,102 +1,95 @@
-public class Post implements Comparable<Post> {
+import java.util.Map;
+import java.util.Set;
 
-    private Autor autor;
-    private String titulo;
-    private String corpo;
-    private Categorias categoria;
+public class Program {
 
-    public Post(Autor autor, String titulo, String corpo,
-                Categorias categoria) {
-        super();
-        this.autor = autor;
-        this.titulo = titulo;
-        this.corpo = corpo;
-        this.categoria = categoria;
-    }
+	public static void main(String[] args) {
+		
+	
+	 Blog blog1 = new Blog();
 
-    public Autor getAutor() {
-        return autor;
-    }
+     Autor autor1 = new Autor("John", "Bannons");
+     Autor autor2 = new Autor("Jane", "Doe");
+     Autor autor3 = new Autor("Peter", "Dirkly");
 
-    public void setAutor(Autor autor) {
-        this.autor = autor;
-    }
+     Post post1 = new Post(autor1, 
+         "Como implementar Terraform",
+         "Implementando IaC com Terraform bla bla bla",
+         Categorias.DEVOPS);
 
-    public String getTitulo() {
-        return titulo;
-    }
+     Post post2 = new Post(autor1, 
+         "Trabalhando com a interface Set em Java",
+         "A interface Set eh implementada por varias colecoes em Java bla bla bla",
+         Categorias.DESENVOLVIMENTO);            
 
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
+     Post post3 = new Post(autor2, 
+         "Publicando pipelines GitLab",
+         "Para publicar pipelines no GitLab bla bla bla",
+         Categorias.DEVOPS);            
 
-    public String getCorpo() {
-        return corpo;
-    }
+     Post post4 = new Post(autor2, 
+         "Azure Service Bus por onde comecar",
+         "Primeiramente, eh necessario entender que bla bla bla",
+         Categorias.DEVOPS);
 
-    public void setCorpo(String corpo) {
-        this.corpo = corpo;
-    }
+     Post post5 = new Post(autor2, 
+         "TDD de forma simples",
+         "O processo de desenvolvimento de software TDD bla bla bla",
+         Categorias.DESENVOLVIMENTO);       
 
-    public Categorias getCategoria() {
-        return categoria;
-    }
+     Post post6 = new Post(autor3,
+         "Hadoop: A ferramenta que vai facilitar seu processamento de dados",
+         "Hadoop eh uma ferramente bla bla bla",
+         Categorias.DATA_SCIENCE);
 
-    public void setCategoria(Categorias categoria) {
-        this.categoria = categoria;
-    }
+     Post post7 = new Post(autor3,
+         "Hadoop: A ferramenta que vai facilitar seu processamento de dados",
+         "A ferramenta Hadoop bla bla bla",
+         Categorias.DATA_SCIENCE);
 
-    @Override
-    public String toString() {
-        return this.titulo;
-    }
+     blog1.adicionarPostagem(post1);
+     blog1.adicionarPostagem(post2);
+     blog1.adicionarPostagem(post3);
+     blog1.adicionarPostagem(post4);
+     blog1.adicionarPostagem(post5);
+     blog1.adicionarPostagem(post6);
 
-    @Override
-    public int hashCode() {
-        final int prime = 31;
-        int result = 1;
-        result = prime * result + ((autor == null) ? 0 : autor.hashCode());
-        result = prime * result + ((categoria == null) ? 0 : categoria.hashCode());
-        result = prime * result + ((corpo == null) ? 0 : corpo.hashCode());
-        result = prime * result + ((titulo == null) ? 0 : titulo.hashCode());
-        return result;
-    }
+     try {
+         blog1.adicionarPostagem(post7);
+     } catch(Exception ex) {
+         System.out.println(ex.getMessage());
+     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Post other = (Post) obj;
-        if (autor == null) {
-            if (other.autor != null)
-                return false;
-        } else if (!autor.equals(other.autor))
-            return false;
-        if (categoria != other.categoria)
-            return false;
-        if (corpo == null) {
-            if (other.corpo != null)
-                return false;
-        } else if (!corpo.equals(other.corpo))
-            return false;
-        if (titulo == null) {
-            if (other.titulo != null)
-                return false;
-        } else if (!titulo.equals(other.titulo))
-            return false;
-        return true;
-    }
+     Set<Autor> autores = blog1.obterTodosAutores();
 
+     System.out.println(autores);
 
-    @Override
-    public int compareTo(Post outroPost) {
-        return this.toString().compareTo(outroPost.toString());
+     Map<Categorias, Integer> contagem = blog1.obterContagemPorCategoria();
 
-    }
+     System.out.println(contagem);
 
+     Set<Post> postsDevOps = blog1.obterPostsPorCategoria(Categorias.DEVOPS);
 
+     System.out.println(postsDevOps);
+
+     Set<Post> postsDev = blog1.obterPostsPorCategoria(Categorias.DESENVOLVIMENTO);
+
+     System.out.println(postsDev); 
+
+     Set<Post> postsData = blog1.obterPostsPorCategoria(Categorias.DATA_SCIENCE);
+
+     System.out.println(postsData); 
+
+     Set<Post> postsJaneDoe = blog1.obterPostsPorAutor(new Autor("Jane", "Doe"));
+
+     System.out.println(postsJaneDoe);      
+
+     Map<Categorias, Set<Post>> postsPorCategoria = blog1.obterTodosPostsPorCategorias();
+
+     System.out.println(postsPorCategoria);
+
+     Map<Autor, Set<Post>> postsPorAutor = blog1.obterTodosPostsPorAutor();
+
+     System.out.println(postsPorAutor);        
+ }
 }
