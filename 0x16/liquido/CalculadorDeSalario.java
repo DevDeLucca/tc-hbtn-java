@@ -1,4 +1,5 @@
-public class CalculadorDeSalario {
+@FunctionalInterface
+public interface CalculadorDeSalario {
 
-    private double calcular(double d);
+	double calcular(double d);
 }
