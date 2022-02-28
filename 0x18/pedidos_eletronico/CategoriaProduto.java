@@ -1,5 +1,5 @@
 public enum CategoriaProduto {
 
-    BRINQUEDO, LIVRO, ELETRONICO;
-
+	BRINQUEDO, LIVRO, ELETRONICO;
+	
 }
