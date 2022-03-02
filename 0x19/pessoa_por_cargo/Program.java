@@ -2,6 +2,7 @@ import java.util.*;
 
 public class Program {
     public static void main(String[] args) {
+        Locale.setDefault(new Locale("pt", "BR"));
         Pessoa pessoa1 = new Pessoa(1, "John Bannins", "Desenvolvedor", 23, 3200);
         Pessoa pessoa2 = new Pessoa(2, "Derry Collier", "Desenvolvedor", 45, 8600);
         Pessoa pessoa3 = new Pessoa(3, "Mikey Berg", "Product Owner", 51, 11350);
@@ -14,14 +15,14 @@ public class Program {
         Pessoa pessoa10 = new Pessoa(10, "Branden Irwin", "Analista QA", 21, 2800);
 
         List<Pessoa> todasPessoas = List.of(pessoa1, pessoa2, pessoa3, pessoa4, pessoa5,
-                pessoa6, pessoa7, pessoa8, pessoa9, pessoa10);
+            pessoa6, pessoa7, pessoa8, pessoa9, pessoa10);
 
         Map<String, List<Pessoa>> pessoasPorCargo1 = ConsultaPessoas.obterPessoasPorCargo(todasPessoas);
         Map<String, List<Pessoa>> pessoasPorCargo2 = ConsultaPessoas.obterPessoasPorCargo(
-                List.of(pessoa1, pessoa4, pessoa10)
+            List.of(pessoa1, pessoa4, pessoa10)
         );
         Map<String, List<Pessoa>> pessoasPorCargo3 = ConsultaPessoas.obterPessoasPorCargo(
-                List.of(pessoa4, pessoa9)
+            List.of(pessoa4, pessoa9)
         );
 
         System.out.println(pessoasPorCargo1);
